@@ -16,6 +16,9 @@ app.get('/singup', (req, res) => {
 app.get('/login', (req, res) => {
     res.render('login', { title: 'Greetings from Pug' })
   })
+app.get('/catalog', (req, res) => {
+    res.render('catalog', { title: 'Greetings from Pug' })
+  })
 
 app.listen(port, host, function () {
   console.log(`Server listens http://${host}:${port}`)
