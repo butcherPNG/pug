@@ -1,0 +1,30 @@
+doctype html
+
+html
+  head
+  link(rel='stylesheet', href='style.css')
+  body 
+  header 
+    div 
+      img(src="GameStore.png", alt="")
+      a(href="#") Главная 
+      a(href="#") Каталог 
+      a(href="#") Сообщество 
+      a(href="#") Поддержка 
+      a(href="#") Вход 
+      
+  h1 Вход
+  div(class = 'reg2')
+    form(method="post")
+    
+        p
+        
+            input(type="text", name="user", value='' placeholder = 'Логин')
+        p 
+        
+            input(type="password", name="password", value='' placeholder = 'Пароль')
+    
+        button(type="submit" class='btn') Вход
+    div(class = 'enter')
+        h2 Войти по QR коду
+        img(src="qr.png", alt="")
